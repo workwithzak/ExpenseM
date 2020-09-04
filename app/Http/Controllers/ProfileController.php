@@ -50,5 +50,8 @@ class ProfileController extends Controller
         $user->friends;
         return $user;
     }
+    function test(){
+        echo "this is just test function";
+    }
 
 }
